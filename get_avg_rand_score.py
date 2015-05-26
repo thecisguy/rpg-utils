@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # Small test program to determine the average ability score obtained through
 # the random ability score generation option in D&D 5th ed.
 #

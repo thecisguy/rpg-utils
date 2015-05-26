@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # a simple calculator with die rolls. good tool during games.
 #
 # Copyright (C) 2015 - Blake Lowe

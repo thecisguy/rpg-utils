@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # ability score generator for DnD 5th ed.
 #
 # Copyright (C) 2015 - Blake Lowe
