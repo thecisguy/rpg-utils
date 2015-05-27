@@ -92,7 +92,11 @@ def parse(new_token): # parses a new token into postfix
 				print("parser error: mismatched parens")
 			opstack.pop() # throw away used open paren
 
-user_input = input("Enter roll: ")
+try:
+	user_input = input("Enter roll: ")
+except EOFError:
+	print()
+	exit()
 while user_input != "exit":
 	getting_number = False # kept True while a full number is being scanned
 	number = 0 # temporary value to hold number while it is being scanned
@@ -184,4 +188,8 @@ while user_input != "exit":
 
 	postfix = deque()
 	opstack = deque()
-	user_input = input("Enter roll: ")
+	try:
+		user_input = input("Enter roll: ")
+	except EOFError:
+		print()
+		exit()
